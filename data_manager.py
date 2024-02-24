@@ -47,14 +47,3 @@ def preprocess_data(data, feature_columns):
     scaler = MinMaxScaler()
     data_scaled = scaler.fit_transform(data[feature_columns])
     return data_scaled, scaler
-
-# Example usage
-# Uncomment the following lines to test the functionality after implementing the rest of the project components.
-
-symbol = 'AAPL'
-start_date = '2020-01-01'
-end_date = '2020-12-31'
-data = get_historical_data(symbol, start_date, end_date)
-feature_columns = ['Open', 'High', 'Low', 'Close', 'Volume']
-data_scaled, scaler = preprocess_data(data, feature_columns)
-print(data_scaled)
