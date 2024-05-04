@@ -33,25 +33,3 @@ To get started with this trading bot, follow these steps:
    ```bash
    jupyter notebook trading_bot_v2.ipynb
    ```
-
-## Usage
-
-Follow the steps outlined in the notebook, which guide you through the process of:
-1. Importing necessary libraries and dependencies.
-2. Creating necessary folders for data storage.
-3. Downloading and preprocessing financial data.
-4. Configuring the trading environment and training the model.
-
-## Contributing
-
-Contributions to this project are welcome. You can contribute in the following ways:
-- Improving the notebook's code for efficiency and maintainability.
-- Extending the functionality to include more financial indicators and trading strategies.
-- Integrating more APIs for real-time trading capabilities.
-
-Please fork the repository and submit a pull request with your suggested changes.
-
-## License
-
-Specify the license under which this notebook and its related content are made available.
-
