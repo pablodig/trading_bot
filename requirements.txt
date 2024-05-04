@@ -1,0 +1,7 @@
+alpaca_trade_api==3.2.0
+keras==3.3.3
+numpy==1.26.4
+pandas==2.2.2
+scikit_learn==1.4.1.post1
+yfinance==0.2.37
+finrl @ git+https://github.com/AI4Finance-LLC/FinRL-Library.git@fcf0d2197e0ff8fcc9b9ffb4bbab083a2deb61a6

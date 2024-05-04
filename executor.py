@@ -46,7 +46,3 @@ def check_open_positions(symbol):
         if position.symbol == symbol:
             return int(position.qty)
     return 0
-
-# Note: This executor module is a basic implementation for executing trades with the Alpaca API.
-# It should be integrated with the trading strategy to automate trade decisions based on model predictions.
-# Additionally, proper error handling and logging should be implemented for robustness.
